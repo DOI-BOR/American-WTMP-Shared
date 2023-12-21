@@ -12,29 +12,28 @@
     </datastore>
 
     <data-exchange-set id="BC_Folsom Lake 1 of 2" source-id="www.grabdata2.com" 
-        template-name = "BC_Folsom Lake 1 of 2" quality-version-id="1" 
-        quality-version-name = "Boundary Condition" unit-system="English">
+        template-name = "BC_Folsom Lake 1 of 2" quality-version-id="1"  unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
     <data-exchange-set id="BC_Folsom Lake 2 of 2" source-id="www.grabdata2.com"
-         template-name = "BC_Folsom Lake 2 of 2" quality-version-id="0" unit-system="English">
+         template-name = "BC_Folsom Lake 2 of 2" quality-version-id="1" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
     <data-exchange-set id="BC_Lake Natoma 1 of 1" source-id="www.grabdata2.com"
-         template-name = "BC_Lake Natoma 1 of 1" quality-version-id="0" unit-system="English">
+         template-name = "BC_Lake Natoma 1 of 1" quality-version-id="1" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
     <data-exchange-set id="BC_American R 1 of 1" source-id="www.grabdata2.com"
-         template-name = "BC_American R 1 of 1" quality-version-id="0" unit-system="English">
+         template-name = "BC_American R 1 of 1" quality-version-id="1" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>

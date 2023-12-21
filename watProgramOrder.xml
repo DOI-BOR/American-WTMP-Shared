@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="4">
+<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="9">
   <ProgramOrder0 ProgramOrderName="Default" Description="Default Program Order" ProgramOrderItemCnt="1">
     <ProgramOrderItem0 ProgramOrderName="ResSim" Description="Reservoir Op." Index="-2147483648" StandardModel="true" InputPosition="0" IconName="Images/rss18.gif" ShortName="RSS" />
   </ProgramOrder0>
@@ -15,5 +15,26 @@
     <ProgramOrderItem1 ProgramOrderName="ResSim" Description="Reservoir Op." Index="2" StandardModel="true" InputPosition="0" IconName="Images/rss18.gif" ShortName="RSS" />
     <ProgramOrderItem2 ProgramOrderName="Scripting" Description="Scripting" Index="3" StandardModel="false" InputPosition="1" IconName="Images/scripting.gif" ShortName="Scripting" />
   </ProgramOrder3>
+  <ProgramOrder4 ProgramOrderName="W2 Folsom Only" Description="" ProgramOrderItemCnt="3">
+    <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem1 ProgramOrderName="CeQualW2" Description="Water Quality" Index="2" StandardModel="false" InputPosition="0" IconName="Images/w2.gif" ShortName="W2" />
+    <ProgramOrderItem2 ProgramOrderName="Scripting" Description="Scripting" Index="3" StandardModel="false" InputPosition="1" IconName="Images/scripting.gif" ShortName="Scripting" />
+  </ProgramOrder4>
+  <ProgramOrder5 ProgramOrderName="ResSimForecast" Description="" ProgramOrderItemCnt="3">
+    <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem1 ProgramOrderName="ResSim" Description="Reservoir Op." Index="2" StandardModel="true" InputPosition="0" IconName="Images/rss18.gif" ShortName="RSS" />
+    <ProgramOrderItem2 ProgramOrderName="Scripting" Description="Scripting" Index="3" StandardModel="false" InputPosition="1" IconName="Images/scripting.gif" ShortName="Scripting" />
+  </ProgramOrder5>
+  <ProgramOrder6 ProgramOrderName="W2" Description="" ProgramOrderItemCnt="1">
+    <ProgramOrderItem0 ProgramOrderName="CeQualW2" Description="Water Quality" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/w2.gif" ShortName="W2" />
+  </ProgramOrder6>
+  <ProgramOrder7 ProgramOrderName="W2 Folsom Iterative" Description="" ProgramOrderItemCnt="2">
+    <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem1 ProgramOrderName="CeQualW2" Description="Water Quality" Index="2" StandardModel="false" InputPosition="0" IconName="Images/w2.gif" ShortName="W2" />
+  </ProgramOrder7>
+  <ProgramOrder8 ProgramOrderName="W2 Folsom Prescribed" Description="" ProgramOrderItemCnt="2">
+    <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem1 ProgramOrderName="CeQualW2" Description="Water Quality" Index="2" StandardModel="false" InputPosition="0" IconName="Images/w2.gif" ShortName="W2" />
+  </ProgramOrder8>
 </ProgramOrderManager>
 

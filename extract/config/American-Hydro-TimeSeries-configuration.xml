@@ -11,15 +11,36 @@
         <path>$WATERSHED/shared/DMS_AmericanHydroTS.dss</path>
     </datastore>
 
-    <data-exchange-set id="BC_Folsom Lake 1 of 2" source-id="www.grabdata2.com" 
-        template-name = "BC_Folsom Lake 1 of 2" quality-version-id="1"  unit-system="English">
+    <data-exchange-set id="BC_Folsom Lake 1 of 5" source-id="www.grabdata2.com" 
+        template-name = "BC_Folsom Lake 1 of 5" quality-version-id="1"  unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
-    <data-exchange-set id="BC_Folsom Lake 2 of 2" source-id="www.grabdata2.com"
-         template-name = "BC_Folsom Lake 2 of 2" quality-version-id="1" unit-system="English">
+    <data-exchange-set id="BC_Folsom Lake 2 of 5" source-id="www.grabdata2.com"
+         template-name = "BC_Folsom Lake 2 of 5" quality-version-id="1" unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+
+    <data-exchange-set id="BC_Folsom Lake 3 of 5" source-id="www.grabdata2.com"
+         template-name = "BC_Folsom Lake 3 of 5" quality-version-id="1" unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+
+    <data-exchange-set id="BC_Folsom Lake 4 of 5" source-id="www.grabdata2.com"
+         template-name = "BC_Folsom Lake 4 of 5" quality-version-id="1" unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+
+    <data-exchange-set id="BC_Folsom Lake 5 of 5" source-id="www.grabdata2.com"
+         template-name = "BC_Folsom Lake 5 of 5" quality-version-id="1" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
